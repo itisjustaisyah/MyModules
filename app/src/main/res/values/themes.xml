@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyModules" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:background">#4CAF50</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:windowActionBar">true</item>
+        <item name="windowActionBarOverlay">true</item>
+
+    </style>
+
+    <style name="ModuleText" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:background">#CDDC39</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:layout_marginBottom">14dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="textAllCaps">true</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Body2</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:foregroundGravity">center_vertical</item>
+    </style>
+    <style name="Theme.MyModules" parent="Base.Theme.MyModules" />
+
+</resources>

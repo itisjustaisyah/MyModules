@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4CAF50"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:id="@+id/moduleTxtLayout">
+
+
+        <TextView
+            style="@style/ModuleText"
+            android:id="@+id/text"
+            android:text="" />
+
+        <TextView
+            style="@style/ModuleText"
+            android:id="@+id/text1"
+            android:text="@string/c346" />
+
+        <TextView
+            style="@style/ModuleText"
+            android:id="@+id/text2"
+            android:text="@string/c349"/>
+
+        <TextView
+            style="@style/ModuleText"
+            android:id="@+id/text3"
+            android:text="@string/c666"
+             />
+
+        <TextView
+            style="@style/ModuleText"
+            android:id="@+id/text4"
+            android:text="@string/c234"
+            />
+
+</LinearLayout>
